@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GETTING STARTED WITH BRACKETS</title>
+        <meta name="description" content="Creative Landscaping - Budget Estimator">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        
+        <h1>Creative Landscaping</h1>
+        <h2>What’s on your wish list for your new outdoor space?</h2>
+        
+        <p>
+            Our project building tool allows you to estimate your investment in the landscape elements you are considering. It’s a fun and smart way to start planning your project! We can add or replace items to create the perfect package and see how it affects your total. When you’re ready for a more precise estimate, we can put one together customized for your property and project.  
+        </p>
+        
+        <h2>Front Yard</h2>
+        
+            <button class="accordion">Entrance - Natural Stone
+                <div class="button_content">
+                    Create value-enhancing curb appeal with a natural stone walkway to add welcoming character to your home
+                </div>
+            </button>
+        <div class="panel">
+            
+            <form>
+                <input type="radio" name="1" value="0,0" onchange="frontYardChange()" checked> N/A<br>
+                <input type="radio" name="1" value="10,12" onchange="frontYardChange()" > Small ($10k-12k)<br>
+                <input type="radio" name="1" value="12,18" onchange="frontYardChange()" > Medium ($12k-18k)<br>
+                <input type="radio" name="1" value="20,28" onchange="frontYardChange()" > Large ($20k-28k)
+            </form>
+            
+            <div class="images">
+                <img src="simple-landscaping-ideas.jpg" alt="Landscaping" style="width:128px;height:128px;">
+                <img src="simple-landscaping-ideas.jpg" alt="Landscaping" style="width:128px;height:128px;">
+                <img src="simple-landscaping-ideas.jpg" alt="Landscaping" style="width:128px;height:128px;">
+                <img src="simple-landscaping-ideas.jpg" alt="Landscaping" style="width:128px;height:128px;">
+            </div>
+            
+        </div>
+
+        <button class="accordion">Entrance - Pavers & Cultured Stone</button>
+        <div class="panel">
+            <p>
+                Less expensive than natural stone, pavers and cultured stone can provide definition and interest to your entryway. 
+            </p>
+            <form>
+                <input type="radio" name="2" value="0,0" onchange="frontYardChange()" checked> N/A<br>
+                <input type="radio" name="2" value="7,9" onchange="frontYardChange()"> Small ($7k-9k)<br>
+                <input type="radio" name="2" value="10,14" onchange="frontYardChange()"> Medium ($10k-14k)<br>
+                <input type="radio" name="2" value="15,20" onchange="frontYardChange()"> Large ($15k-20k)
+            </form> <br>
+        </div>
+
+        <button class="accordion">Driveway Accents</button>
+        <div class="panel">
+            <p>
+                Brick and stone can enhance the look of your driveway, either patterned in the middle or framing the edges.
+            </p>
+            
+            <form>
+                <input type="radio" name="3" value="0,0" onchange="frontYardChange()" checked> N/A<br>
+                <input type="radio" name="3" value="7.3,8.5" onchange="frontYardChange()"> Small ($7.2k-8.5k)<br>
+                <input type="radio" name="3" value="14,16.5" onchange="frontYardChange()"> Medium ($14k-16.5k)<br>
+                <input type="radio" name="3" value="18,20" onchange="frontYardChange()"> Large (18k-20k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Driveway - Brick/Stone</button>
+        <div class="panel">
+            <p>
+                A brick or stone driveway expresses a subtle elegance and creates unique curb appeal.
+            </p>
+            
+            <form>
+                <input type="radio" name="4" value="0,0" onchange="frontYardChange()" checked> N/A<br>
+                <input type="radio" name="4" value="7.3,8.5" onchange="frontYardChange()"> Small ($7.2k-8.5k)<br>
+                <input type="radio" name="4" value="14,16.5" onchange="frontYardChange()"> Medium ($14k-16.5k)<br>
+                <input type="radio" name="4" value="18,20" onchange="frontYardChange()"> Large (18k-20k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Garden/Knee Walls</button>
+        <div class="panel">
+            <p>
+                Create privacy or a secret garden with a garden/knee wall.
+            </p>
+            
+            <form>
+                <input type="radio" name="5" value="0,0" onchange="frontYardChange()" checked> N/A<br>
+                <input type="radio" name="5" value="4,6" onchange="frontYardChange()"> Small ($4k-6k)<br>
+                <input type="radio" name="5" value="8,12" onchange="frontYardChange()"> Medium ($8k-12k)<br>
+                <input type="radio" name="5" value="18,24" onchange="frontYardChange()"> Large ($18k-24k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Address Stone/Pillar</button>
+        <div class="panel">
+            <p>
+                This attractive yard accent doubles as a useful guide for visitors or emergency responders to easily find your home.
+            </p>
+            
+            <form>
+                <input type="radio" name="6" value="0,0" onchange="frontYardChange()" checked> N/A<br>
+                <input type="radio" name="6" value="1,1.3" onchange="frontYardChange()"> Small ($1k-1.3k)<br>
+                <input type="radio" name="6" value="3,4" onchange="frontYardChange()"> Medium ($3k-4k)<br>
+                <input type="radio" name="6" value="4,6" onchange="frontYardChange()"> Large ($4k-6k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Mailbox Post/Pillar</button>
+        <div class="panel">
+            <p>
+                Everyone needs a mailbox. Make yours one that adds to, rather than detracts from, the overall presentation of your home.
+            </p>
+            
+            <form>
+                <input type="radio" name="7" value="0,0" onchange="frontYardChange()" checked> N/A<br>
+                <input type="radio" name="7" value="1,1.3" onchange="frontYardChange()"> Small ($1k-1.3k)<br>
+                <input type="radio" name="7" value="3,4" onchange="frontYardChange()"> Medium ($3k-4k)<br>
+                <input type="radio" name="7" value="4,6" onchange="frontYardChange()"> Large ($4k-6k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Gardens - Landscape/Flower</button>
+        <div class="panel">
+            <p>
+                Trees, shrubs, and plants soften the look of your home, add value, and provide important environmental benefits.
+            </p>
+            
+            <form>
+                <input type="radio" name="8" value="0,0" onchange="frontYardChange()" checked> N/A<br>
+                <input type="radio" name="8" value="8,10" onchange="frontYardChange()"> Small ($8k-10k)<br>
+                <input type="radio" name="8" value="10,15" onchange="frontYardChange()"> Medium ($10k-15k)<br>
+                <input type="radio" name="8" value="15,20" onchange="frontYardChange()"> Large ($15k-20k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Grading & Sodding/Seeding</button>
+        <div class="panel">
+            <p>
+                Proper yard grading is important for rainwater management around your home, while a lush lawn creates space for play and relaxation.
+            </p>
+            
+            <form>
+                <input type="radio" name="9" value="0,0" onchange="frontYardChange()" checked> N/A<br>
+                <input type="radio" name="9" value="1,1.5" onchange="frontYardChange()"> Small ($1k-1.5k)<br>
+                <input type="radio" name="9" value="1.5,2.5" onchange="frontYardChange()"> Medium ($1.5k-2.5k)<br>
+                <input type="radio" name="9" value="2.5,4" onchange="frontYardChange()"> Large ($2.5k-4k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">LED Landscape Lighting</button>
+        <div class="panel">
+            <p>
+                Landscape lighting is the superhero of outdoor spaces: it attractively surrounds your home with safety and security as it brightens those dark spaces where supervillains can lurk. 
+            </p>
+            
+            <form>
+                <input type="radio" name="10" value="0,0" onchange="frontYardChange()" checked> N/A<br>
+                <input type="radio" name="10" value="2.5,3.5" onchange="frontYardChange()"> Small ($2.5k-3.5k)<br>
+                <input type="radio" name="10" value="3,5" onchange="frontYardChange()"> Medium ($3k-5k)<br>
+                <input type="radio" name="10" value="5,7" onchange="frontYardChange()"> Large ($5k-7k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Irrigation Package</button>
+        <div class="panel">
+            <p>
+                Stop dragging the sprinkler from place to place across your yard! Keep your plants and grass healthy and strong with an underground irrigation system.
+            </p>
+            
+            <form>
+                <input type="radio" name="11" value="0,0" onchange="frontYardChange()" checked> N/A<br>
+                <input type="radio" name="11" value="1,1.5" onchange="frontYardChange()"> Small ($1k-1.5k)<br>
+                <input type="radio" name="11" value="1.5,2" onchange="frontYardChange()"> Medium ($1.5k-2k)<br>
+                <input type="radio" name="11" value="2,3" onchange="frontYardChange()"> Large ($2k-3k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Demolition & Site Preparation</button>
+        <div class="panel">
+            <p>
+                Getting your project right starts at square one with professional demolition and site preparation. Eliminate surprises by laying the groundwork and staying in the know.
+            </p>
+            
+            <form>
+                <input type="radio" name="12" value="0,0" onchange="frontYardChange()" checked> N/A<br>
+                <input type="radio" name="12" value="1,1.5" onchange="frontYardChange()"> Small ($1k-1.5k)<br>
+                <input type="radio" name="12" value="1.5,2" onchange="frontYardChange()"> Medium ($1.5k-2k)<br>
+                <input type="radio" name="12" value="2,3" onchange="frontYardChange()"> Large ($2k-3k)
+            </form> <br>
+        </div>
+        
+        <script>
+            
+        function frontYardChange() {
+            
+            var frontyardlowEnd = 0;
+            var frontyardhighEnd = 0;
+        
+            for(var j = 1, options = 12; j < options; j++) {
+                
+                var radios = null;
+                radios = document.getElementsByName(j);
+            
+                for (var i = 0, length = radios.length; i < length; i++) {
+                    if (radios[i].checked) {
+                        // do whatever you want with the checked radio
+                        
+                        var frontyardarray = radios[i].value.split(',');
+                        
+                        frontyardlowEnd = frontyardlowEnd + (parseInt(frontyardarray[0]) * 1000);
+                        frontyardhighEnd = frontyardhighEnd + (parseInt(frontyardarray[1]) * 1000);
+
+                        // only one radio can be logically checked, don't check the rest
+                        break;
+                    }
+                }
+            }
+            
+            document.querySelector('.content11 .value11').innerHTML = '$'.concat(frontyardlowEnd.formatMoney(0));
+            document.querySelector('.content11 .value12').innerHTML = '$'.concat(frontyardhighEnd.formatMoney(0));
+        }
+    
+        </script>
+        
+        <h1>Front Yard Budget:</h1>
+        
+        <div class="estimation">
+            <div class="content11">Cost: <span class='value11'>$0</span> - <span class='value12'>$0</span></div>
+        </div>
+        
+        <h2>Back Yard</h2>
+        
+        <button class="accordion">Side Walkway</button>
+        <div class="panel">
+            <p>
+                Make side doors inviting and accessible with a convenient side walkway.
+            </p>
+            
+            <form>
+                <input type="radio" name="13" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="13" value="2.5,4" onchange="change()"> Small ($2.5k-4k)<br>
+                <input type="radio" name="13" value="4,6" onchange="change()"> Medium ($4k-6k)<br>
+                <input type="radio" name="13" value="12,15" onchange="change()"> Large ($12k-15k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Pathways & Walkways</button>
+        <div class="panel">
+            <p>
+                Meander to your flower garden or firepit.  Pathways and walkways beautifully make the features of your home accessible.
+            </p>
+            
+            <form>
+                <input type="radio" name="14" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="14" value="5,8" onchange="change()"> Small ($5k-8k)<br>
+                <input type="radio" name="14" value="10,12" onchange="change()"> Medium ($10k-12k)<br>
+                <input type="radio" name="14" value="12,18" onchange="change()"> Large ($12k-18k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Patio - Sitting/Dining Area</button>
+        <div class="panel">
+            <p>
+                Add another “room” to your home. A patio becomes the focal point of your backyard with more living space for entertaining or relaxing.
+            </p>
+            
+            <form>
+                <input type="radio" name="15" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="15" value="5,8" onchange="change()"> Small ($5k-8k)<br>
+                <input type="radio" name="15" value="10,12" onchange="change()"> Medium ($10k-12k)<br>
+                <input type="radio" name="15" value="12,18" onchange="change()"> Large ($12k-18k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Patio - Pool Area</button>
+        <div class="panel">
+            <p>
+                Freshen up the look of your pool deck with natural stone that will add beauty and function for years to come. 
+            </p>
+            
+            <form>
+                <input type="radio" name="16" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="16" value="9,13" onchange="change()"> Small ($9k-13k)<br>
+                <input type="radio" name="16" value="15,18" onchange="change()"> Medium ($15k-18k)<br>
+                <input type="radio" name="16" value="19,23" onchange="change()"> Large ($19k-23k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Steps & Walls</button>
+        <div class="panel">
+            <p>
+                Do you want a patio but have a sloped yard? No problem. A retaining wall with steps lets you place a patio where you want it.
+            </p>
+            
+            <form>
+                <input type="radio" name="17" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="17" value="3,5" onchange="change()"> Small ($3k-5k)<br>
+                <input type="radio" name="17" value="6,9" onchange="change()"> Medium ($6k-9k)<br>
+                <input type="radio" name="17" value="15,20" onchange="change()"> Large ($15k-20k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Deck - Wood</button>
+        <div class="panel">
+            <p>
+                Sip coffee, read the paper or your iPad, and listen to the birds from you wood deck – perfect for relaxing or entertaining.
+            </p>
+            
+            <form>
+                <input type="radio" name="18" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="18" value="3,5" onchange="change()"> Small ($3k-5k)<br>
+                <input type="radio" name="18" value="7,9" onchange="change()"> Medium ($7k-9k)<br>
+                <input type="radio" name="18" value="12,15" onchange="change()"> Large ($12k-15k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Deck - Premium</button>
+        <div class="panel">
+            <p>
+                Take your deck to the next level with premium woods or composite materials that make it right place for an outdoor kitchen or hot tub.
+            </p>
+            
+            <form>
+                <input type="radio" name="19" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="19" value="6,10" onchange="change()"> Small ($6k-10k)<br>
+                <input type="radio" name="19" value="15,18" onchange="change()"> Medium ($15k-18k)<br>
+                <input type="radio" name="19" value="20,25" onchange="change()"> Large ($20k-25k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Built-in BBQ/Kitchen/Bar</button>
+        <div class="panel">
+            <p>
+                Create a cooking oasis with an outdoor kitchen for entertaining or keeping the family fed while you enjoy the outdoors. Add a pizza oven, cooktop, refrigerator, Kegerator, or brick oven...the list is endless!
+            </p>
+            
+            <form>
+                <input type="radio" name="20" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="20" value="6,8" onchange="change()"> Small ($6k-8k)<br>
+                <input type="radio" name="20" value="9,12" onchange="change()"> Medium ($9k-12k)<br>
+                <input type="radio" name="20" value="12,16" onchange="change()"> Large ($12k-16k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Fireplace</button>
+        <div class="panel">
+            <p>
+                A classic outdoor fireplace can extend the use of your outdoor space from early spring through late autumn. Place it near the house, or tuck it away on a patio in the corner of your property.
+            </p>
+            
+            <form>
+                <input type="radio" name="21" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="21" value="4,6" onchange="change()"> Small ($4k-6k)<br>
+                <input type="radio" name="21" value="12,15" onchange="change()"> Medium ($12k-15k)<br>
+                <input type="radio" name="21" value="17,22" onchange="change()"> Large ($17k-22k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Firepit</button>
+        <div class="panel">
+            <p>
+                From making s’mores with the kids to kicking back with a glass of wine, the crackle of a fire gives everyone the excuse to enjoy time together.  
+            </p>
+            
+            <form>
+                <input type="radio" name="22" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="22" value="4,6" onchange="change()"> Small ($4k-6k)<br>
+                <input type="radio" name="22" value="12,15" onchange="change()"> Medium ($12k-15k)<br>
+                <input type="radio" name="22" value="17,22" onchange="change()"> Large ($17k-22k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Pavilion, Covered Porch, Pergola, Cabana</button>
+        <div class="panel">
+            <p>
+                Need some shade or a welcoming, defined space within your landscape?  A covered porch, pergola, or pavilion can add another dimension of style and function.
+            </p>
+            
+            <form>
+                <input type="radio" name="23" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="23" value="10,13" onchange="change()"> Small ($10k-13k)<br>
+                <input type="radio" name="23" value="14,17" onchange="change()"> Medium ($14k-17k)<br>
+                <input type="radio" name="23" value="18,24" onchange="change()"> Large ($18k-24k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Shed</button>
+        <div class="panel">
+            <p>
+               Make more storage space a complimentary addition to your property with a storage shed -- because who can’t use more storage space!
+            </p>
+            
+            <form>
+                <input type="radio" name="24" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="24" value="8,11" onchange="change()"> Small ($8k-11k)<br>
+                <input type="radio" name="24" value="12,20" onchange="change()"> Medium ($12k-20k)<br>
+                <input type="radio" name="24" value="25,50" onchange="change()"> Large ($25k-50k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Swimming Pool</button>
+        <div class="panel">
+            <p> 
+                Soak up the warmth of summer in your own pool. It can be a watery playground for the kids, your own private workout club, or a spa retreat just steps away.
+            </p>
+            
+            <form>
+                <input type="radio" name="25" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="25" value="35,40" onchange="change()"> Small ($35k-40k)<br>
+                <input type="radio" name="25" value="40,55" onchange="change()"> Medium ($40k-55k)<br>
+                <input type="radio" name="25" value="55,75" onchange="change()"> Large ($55k-75k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Pool Coping</button>
+        <div class="panel">
+            <p>
+                Put the finishing touches on the edge of your in-ground pool with decorative pool coping.
+            </p>
+            
+            <form>
+                <input type="radio" name="26" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="26" value="4,5" onchange="change()"> Small ($4k-5k)<br>
+                <input type="radio" name="26" value="5,6.5" onchange="change()"> Medium ($5k-6.5k)<br>
+                <input type="radio" name="26" value="7,9" onchange="change()"> Large ($7k-9k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Pool Waterfall - Contemporary</button>
+        <div class="panel">
+            <p>
+                Give your backyard pool that resort-feel by adding a contemporary-styled waterfall. 
+            </p>
+            
+            <form>
+                <input type="radio" name="27" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="27" value="4,5" onchange="change()"> Small ($4k-5k)<br>
+                <input type="radio" name="27" value="5,7" onchange="change()"> Medium ($5k-7k)<br>
+                <input type="radio" name="27" value="7,10" onchange="change()"> Large ($7k-10k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Pool Waterfall - Natural</button>
+        <div class="panel">
+            <p>
+                Take a natural approach to your pool waterfall with plantings and stone outcroppings to build your unique getaway.
+            </p>
+            
+            <form>
+                <input type="radio" name="28" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="28" value="7,9" onchange="change()"> Small ($7k-9k)<br>
+                <input type="radio" name="28" value="10,12" onchange="change()"> Medium ($10k-12k)<br>
+                <input type="radio" name="28" value="14,18" onchange="change()"> Large ($14k-18k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Hot Tub/Spa</button>
+        <div class="panel">
+            <p>
+                Leave the daily stresses behind when you settle into your private hot tub or spa.
+            </p>
+            
+            <form>
+                <input type="radio" name="29" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="29" value="7,9" onchange="change()"> Small ($7k-9k)<br>
+                <input type="radio" name="29" value="10,12" onchange="change()"> Medium ($10k-12k)<br>
+                <input type="radio" name="29" value="14,18" onchange="change()"> Large ($14k-18k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Privacy Screen</button>
+        <div class="panel">
+            <p>
+                Create a barrier from prying eyes with plants to naturally provide a privacy screen between you and the rest of the world.
+            </p>
+            
+            <form>
+                <input type="radio" name="30" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="30" value="1.2,1.5" onchange="change()"> Small ($1.2k-1.5k)<br>
+                <input type="radio" name="30" value="2,3" onchange="change()"> Medium ($2k-3k)<br>
+                <input type="radio" name="30" value="5,8" onchange="change()"> Large ($5k-8k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Fencing - Wood</button>
+        <div class="panel">
+            <p>
+                Establish privacy around your yard, patio, or hot tub with a decorative wood fence.
+            </p>
+            
+            <form>
+                <input type="radio" name="31" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="31" value="4,5" onchange="change()"> Small ($4k-5k)<br>
+                <input type="radio" name="31" value="13,17" onchange="change()"> Medium ($13k-17k)<br>
+                <input type="radio" name="31" value="18,23" onchange="change()"> Large ($18k-23k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Fencing - Modular Iron</button>
+        <div class="panel">
+            <p>
+                Keep what's in in, and what's out out. A modular iron fence is where form meets function when it is integrated it into your landscape design.
+            </p>
+            
+            <form>
+                <input type="radio" name="32" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="32" value="5,8" onchange="change()"> Small ($5k-8k)<br>
+                <input type="radio" name="32" value="10,15" onchange="change()"> Medium ($10k-15k)<br>
+                <input type="radio" name="32" value="15,20" onchange="change()"> Large ($15k-20k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Gardens - Landscaping and Flower</button>
+        <div class="panel">
+            <p>
+                Trees, shrubs, and plants soften the look of your home, add value, and provide important environmental benefits.
+            </p>
+            
+            <form>
+                <input type="radio" name="33" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="33" value="8,12" onchange="change()"> Small ($8k-12k)<br>
+                <input type="radio" name="33" value="12,18" onchange="change()"> Medium ($12k-18k)<br>
+                <input type="radio" name="33" value="18,25" onchange="change()"> Large ($18k-25k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Gardens - Vegetable and Herbs</button>
+        <div class="panel">
+            <p>
+                Bring the farm-to-table movement into your own yard. By adding raised vegetable beds or a small garden plot (with fence to keep the critters out), you’ll have the freshest vegetables and herbs for your next culinary creation.
+            </p>
+            
+            <form>
+                <input type="radio" name="34" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="34" value="8,12" onchange="change()"> Small ($8k-12k)<br>
+                <input type="radio" name="34" value="12,18" onchange="change()"> Medium ($12k-18k)<br>
+                <input type="radio" name="34" value="18,25" onchange="change()"> Large ($18k-25k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Gardens - Sodding/Seeding</button>
+        <div class="panel">
+            <p>
+                Proper yard grading is important for rainwater management around your home, while a lush lawn creates space for play and relaxation.
+            </p>
+            
+            <form>
+                <input type="radio" name="35" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="35" value="8,12" onchange="change()"> Small ($8k-12k)<br>
+                <input type="radio" name="35" value="12,18" onchange="change()"> Medium ($12k-18k)<br>
+                <input type="radio" name="35" value="18,25" onchange="change()"> Large ($18k-25k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">LED Landscape Lighting</button>
+        <div class="panel">
+            <p>
+                Landscape lighting is the superhero of outdoor spaces: it attractively surrounds your home with safety and security as it brightens those dark spaces where supervillains can lurk.
+            </p>
+            
+            <form>
+                <input type="radio" name="36" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="36" value="2.5,3" onchange="change()"> Small ($2.5k-3k)<br>
+                <input type="radio" name="36" value="4.5,6" onchange="change()"> Medium ($4.5k-6k)<br>
+                <input type="radio" name="36" value="7,9" onchange="change()"> Large ($7k-9k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Irrigation Package</button>
+        <div class="panel">
+            <p>
+                Stop dragging the sprinkler from place to place across your yard! Keep your plants and grass healthy and strong with an underground irrigation system.
+            </p>
+            
+            <form>
+                <input type="radio" name="37" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="37" value="1.5,2" onchange="change()"> Small ($1.5k-2k)<br>
+                <input type="radio" name="37" value="2,3" onchange="change()"> Medium ($2k-3k)<br>
+                <input type="radio" name="37" value="3,5" onchange="change()"> Large ($3k-5k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Waterfall - Pond or Pondless</button>
+        <div class="panel">
+            <p>
+                Create endlessmoments of zen with the sound of water cascading over a waterfall. It can be part of a pond or enjoyed as part of a pondless design.  
+            </p>
+            
+            <form>
+                <input type="radio" name="38" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="38" value="1.5,2" onchange="change()"> Small ($1.5k-2k)<br>
+                <input type="radio" name="38" value="2,3" onchange="change()"> Medium ($2k-3k)<br>
+                <input type="radio" name="38" value="3,5" onchange="change()"> Large ($3k-5k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Decorative Waterfeature</button>
+        <div class="panel">
+            <p>
+                A waterwall spillway, decorative spillway bowl, natural stone fountain, or artistic vase fountain can fit into almost any landscape.
+            </p>
+            
+            <form>
+                <input type="radio" name="39" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="39" value="1.5,2" onchange="change()"> Small ($1.5k-2k)<br>
+                <input type="radio" name="39" value="2,3" onchange="change()"> Medium ($2k-3k)<br>
+                <input type="radio" name="39" value="3,5" onchange="change()"> Large ($3k-5k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Reflecting Pond</button>
+        <div class="panel">
+            <p>
+                Create your own mini ecosystem that will be a home for frogs and fish, accented with attractive, pond-perfect plants.
+            </p>
+            
+            <form>
+                <input type="radio" name="40" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="40" value="1.5,2" onchange="change()"> Small ($1.5k-2k)<br>
+                <input type="radio" name="40" value="2,3" onchange="change()"> Medium ($2k-3k)<br>
+                <input type="radio" name="40" value="3,5" onchange="change()"> Large ($3k-5k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Walls</button>
+        <div class="panel">
+            <p>
+                Adding a wall in your landscaping can be a point of focus and another feature to separate your "landscape rooms."
+            </p>
+            
+            <form>
+                <input type="radio" name="41" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="41" value="1.5,2" onchange="change()"> Small ($1.5k-2k)<br>
+                <input type="radio" name="41" value="2,3" onchange="change()"> Medium ($2k-3k)<br>
+                <input type="radio" name="41" value="3,5" onchange="change()"> Large ($3k-5k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Retaining Walls (Boulder, Outcropping, Stack)</button>
+        <div class="panel">
+            <p>
+                Stop that slope from encroaching or add livable outdoor space with a functional and aesthetically pleasing retaining wall.
+            </p>
+            
+            <form>
+                <input type="radio" name="42" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="42" value="1.5,2" onchange="change()"> Small ($1.5k-2k)<br>
+                <input type="radio" name="42" value="2,3" onchange="change()"> Medium ($2k-3k)<br>
+                <input type="radio" name="42" value="3,5" onchange="change()"> Large ($3k-5k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Seawalls</button>
+        <div class="panel">
+            <p>
+                Is your waterfront home under attack by the waves?  We can engineer and permit your seawall project and increase your home’s value by protecting it from the elements.
+            </p>
+            
+            <form>
+                <input type="radio" name="43" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="43" value="1.5,2" onchange="change()"> Small ($1.5k-2k)<br>
+                <input type="radio" name="43" value="2,3" onchange="change()"> Medium ($2k-3k)<br>
+                <input type="radio" name="43" value="3,5" onchange="change()"> Large ($3k-5k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Drainage & Downspouts</button>
+        <div class="panel">
+            <p>
+                Proper drainage is often overlooked when planning a landscape, but its importance can't be overstated.  Protect your investment by moving water away from your home.
+            </p>
+            
+            <form>
+                <input type="radio" name="44" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="44" value="1.5,2" onchange="change()"> Small ($1.5k-2k)<br>
+                <input type="radio" name="44" value="2,3" onchange="change()"> Medium ($2k-3k)<br>
+                <input type="radio" name="44" value="3,5" onchange="change()"> Large ($3k-5k)
+            </form> <br>
+        </div>
+        
+        <button class="accordion">Demolition, Site Preparation and Site Logistics</button>
+        <div class="panel">
+            <p>
+                Getting your project right starts at square one with professional demolition and site preparation. Eliminate surprises by laying the groundwork and staying in the know.
+            </p>
+            
+            <form>
+                <input type="radio" name="45" value="0,0" onchange="change()" checked> N/A<br>
+                <input type="radio" name="45" value="1.5,2" onchange="change()"> Small ($1.5k-2k)<br>
+                <input type="radio" name="45" value="2,3" onchange="change()"> Medium ($2k-3k)<br>
+                <input type="radio" name="45" value="3,5" onchange="change()"> Large ($3k-5k)
+            </form> <br>
+        </div>
+        
+        <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            
+            acc[i].onclick = function(){
+                this.classList.toggle("active");
+                this.nextElementSibling.classList.toggle("show");
+            }
+        }
+        </script>
+        
+        <script>        
+        Number.prototype.formatMoney = function(c, d, t){
+            var n = this, 
+            c = isNaN(c = Math.abs(c)) ? 2 : c, 
+            d = d == undefined ? "." : d, 
+            t = t == undefined ? "," : t, 
+            s = n < 0 ? "-" : "", 
+            i = parseInt(n = Math.abs(+n || 0).toFixed(c)) + "", 
+            j = (j = i.length) > 3 ? j % 3 : 0;
+            return s + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
+        };
+            
+        function change() {
+            
+            var lowEnd = 0;
+            var highEnd = 0;
+        
+            for(var j = 13, options = 46; j < options; j++) {
+                
+                var radios = null;
+                radios = document.getElementsByName(j);
+            
+                for (var i = 0, length = radios.length; i < length; i++) {
+                    if (radios[i].checked) {
+                        // do whatever you want with the checked radio
+                        
+                        var array = radios[i].value.split(',');
+                        
+                        lowEnd = lowEnd + (parseInt(array[0]) * 1000);
+                        highEnd = highEnd + (parseInt(array[1]) * 1000);
+
+                        // only one radio can be logically checked, don't check the rest
+                        break;
+                    }
+                }
+            }
+            
+            document.querySelector('.content1 .value1').innerHTML = '$'.concat(lowEnd.formatMoney(0));
+            document.querySelector('.content1 .value2').innerHTML = '$'.concat(highEnd.formatMoney(0));
+        }
+    
+        </script>
+        
+        <h1>Your Budget:</h1>
+        
+        <div class="estimation">
+            <div class="content1">Cost: <span class='value1'>$0</span> - <span class='value2'>$0</span></div>
+        </div>
+        
+        <p>*This tool provides a rough estimate only and is not meant to give exact costs.</p>
+        
+        <p>Other costs to consider:</p>
+        
+        <p>Design fees: can range from $200 to $5000 or more.</p>
+        
+        <h2>Your Design Fee: $0 - $0</h2>
+        
+        <p>Design fees are non refundable, but will be applied to the work performed by Creative Landscaping, proportionately to the various landscape elements.  Landscape design fees must be applied within one year from drawing date.</p>
+            
+        <p>Permits, engineered drawings and fees: can range from $1500 to $2500</p>
+        
+        <p>Site Access: sites with narrow or difficult access are more costly</p>
+
+        
+    </body>
+</html>
