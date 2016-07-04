@@ -46,7 +46,6 @@ b, strong {
 }
 
 form {
-    border: 0;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -71,17 +70,15 @@ form {
 
 /* Style the buttons that are used to open and close the accordion panel */
 button.accordion {
-    background-color: #eee;
     font-weight: bold;
-    color: #444;
     cursor: pointer;
     font-size: 16px;
     padding: 10px;
     width: 100%;
-    border: none;
-    outline: none;
     transition: 0.4s;
     text-align: left;
+    border-style: solid;
+    outline: 10px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -111,4 +108,45 @@ div.button_content {
 div.panel.show {
     opacity: 1;
     max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}
+
+#priority {
+    float:right;
+}
+
+#priority label {
+    float:right;
+    width:80px;
+    margin-left:10px;
+    background-color:#EFEFEF;
+    border-radius:4px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+#priority label span {
+    text-align:center;
+    font-size: 16px;
+    display:block;
+}
+
+#priority label input {
+    position:absolute;
+    top:-20px;
+}
+
+#priority .yellow {
+    background-color:#FFFF00;
+    color:#333;
+}
+
+#priority .green {
+    background-color:#00FF00;
+    color:#333;
+}
+
+#priority .red {
+    background-color:#FF0000;
+    color:#333;
 }

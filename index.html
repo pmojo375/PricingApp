@@ -13,16 +13,26 @@
         <h1>Creative Landscaping</h1>
         <h2>What’s on your wish list for your new outdoor space?</h2>
         
+        <p id="test">test</p>
+        
         <p>
             Our project building tool allows you to estimate your investment in the landscape elements you are considering. It’s a fun and smart way to start planning your project! We can add or replace items to create the perfect package and see how it affects your total. When you’re ready for a more precise estimate, we can put one together customized for your property and project.  
         </p>
         
         <h2>Front Yard</h2>
         
-            <button class="accordion">Entrance - Natural Stone
+            <button class="accordion">Entrance - Natural Stone   
+                
+                <div id="priority">
+                    <label class="red"><input type="radio" name="toggle"><span>High</span></label>
+                    <label class="yellow"><input type="radio" name="toggle"><span>Med</span></label>
+                    <label class="green"><input type="radio" name="toggle" checked><span>Low</span></label>
+                </div>
+                
                 <div class="button_content">
                     Create value-enhancing curb appeal with a natural stone walkway to add welcoming character to your home
                 </div>
+                
             </button>
         <div class="panel">
             
@@ -42,11 +52,21 @@
             
         </div>
 
-        <button class="accordion">Entrance - Pavers & Cultured Stone</button>
+        <button class="accordion">Entrance - Pavers & Cultured Stone
+            
+                <div id="priority">
+                    <label class="red"><input type="radio" name="toggle"><span>High</span></label>
+                    <label class="yellow"><input type="radio" name="toggle"><span>Med</span></label>
+                    <label class="green"><input type="radio" name="toggle" checked><span>Low</span></label>
+                </div>
+                
+                <div class="button_content">
+                    Less expensive than natural stone, pavers and cultured stone can provide definition and interest to your entryway. 
+                </div>
+            
+        </button>
         <div class="panel">
-            <p>
-                Less expensive than natural stone, pavers and cultured stone can provide definition and interest to your entryway. 
-            </p>
+            
             <form>
                 <input type="radio" name="2" value="0,0" onchange="frontYardChange()" checked> N/A<br>
                 <input type="radio" name="2" value="7,9" onchange="frontYardChange()"> Small ($7k-9k)<br>
@@ -698,16 +718,37 @@
             </form> <br>
         </div>
         
-        <script>
+        <script> 
         var acc = document.getElementsByClassName("accordion");
-        var i;
+        var j;
 
-        for (i = 0; i < acc.length; i++) {
+        for (var category of acc) {
             
-            acc[i].onclick = function(){
+            category.onclick = function() {
                 this.classList.toggle("active");
                 this.nextElementSibling.classList.toggle("show");
             }
+        
+            radios = null;
+            radios = document.getElementsByName(toggle);
+            
+            document.getElementsByName("test").innerHTML = "poop";
+            
+            for (var radio of radios) {
+                radio.onclick = function() {
+                    if (radios[0].checked) {
+                        document.getElementById("test").innerHTML = "high";
+                        category.style.border = "thick solid red";
+                    } else if (radios[1].checked) {
+                        document.getElementById("test").innerHTML = "med";
+                        category.style.border = "thick solid yellow";
+                    } else {
+                        document.getElementById("test").innerHTML = "low";
+                        category.style.border = "thick solid green";
+                    }
+                }
+            }
+        
         }
         </script>
         
@@ -753,7 +794,7 @@
         }
     
         </script>
-        
+
         <h1>Your Budget:</h1>
         
         <div class="estimation">
