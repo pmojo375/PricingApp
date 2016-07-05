@@ -77,8 +77,9 @@ button.accordion {
     width: 100%;
     transition: 0.4s;
     text-align: left;
-    border-style: solid;
+    border-style: none;
     outline: 10px;
+    overflow: auto;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -110,11 +111,11 @@ div.panel.show {
     max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
 }
 
-#priority {
+div.priority {
     float:right;
 }
 
-#priority label {
+div.priority label {
     float:right;
     width:80px;
     margin-left:10px;
@@ -125,28 +126,74 @@ div.panel.show {
     overflow: hidden;
 }
 
-#priority label span {
+div.priority label span {
     text-align:center;
     font-size: 16px;
     display:block;
 }
 
-#priority label input {
+div.priority label input {
     position:absolute;
     top:-20px;
 }
 
-#priority .yellow {
+div.priority .yellow {
     background-color:#FFFF00;
     color:#333;
 }
 
-#priority .green {
+div.priority .green {
     background-color:#00FF00;
     color:#333;
 }
 
-#priority .red {
+div.priority .red {
     background-color:#FF0000;
     color:#333;
+}
+
+div.priority .black {
+    background-color:#FFFFFF;
+    color:#333;
+}
+.images input{
+    margin:0;padding:0;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+}
+.small{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+.medium{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+.large{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+
+.images input:active +.sizing{opacity: .9;}
+.images input:checked +.sizing{
+    -webkit-filter: none;
+    filter: none;
+}
+.sizing{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    alignment: top ;
+    width:200px;height:140px;
+    -webkit-transition: all 100ms ease-in;
+    -moz-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+    filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+.sizing:hover{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+    filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+
+div.picture {
+    overflow: auto;
+}
+
+div.selectionTitle {
+    font-size: 24px;
+    margin-top: 0px;
+    padding: 0px;
 }
