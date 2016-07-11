@@ -122,8 +122,6 @@ function backYardChange() {
         }
     }
 
-    document.getElementById("test").innerHTML = overallHighTotal;
-
     //document.querySelector('.content11 .value11').innerHTML = '$'.concat(frontyardlowEnd.formatMoney(0));
     //document.querySelector('.content11 .value12').innerHTML = '$'.concat(frontyardhighEnd.formatMoney(0));
 }
@@ -131,8 +129,8 @@ function backYardChange() {
 function frontYardChange() {
 
     // reset the overall totals to 0
-    overallHighTotal = 0;
-    overallLowTotal = 0;
+    frontYardHighTotal = 0;
+    frontYardLowTotal = 0;
 
     for(var i = 1; i < 12 ; i++) {
 
@@ -141,14 +139,12 @@ function frontYardChange() {
 
         for (var j = 0; j < radios.length; j++) {
             if (radios[j].checked) {
-                overallLowTotal += parseInt(radios[j].getAttribute("data-low"));
-                overallHighTotal += parseInt(radios[j].getAttribute("data-high"));
+                frontYardLowTotal += parseInt(radios[j].getAttribute("data-low"));
+                frontYardHighTotal += parseInt(radios[j].getAttribute("data-high"));
             }
         }
     }
 
-    //document.getElementById("test").innerHTML = overallHighTotal;
-
-    //document.querySelector('.content11 .value11').innerHTML = '$'.concat(frontyardlowEnd.formatMoney(0));
-    //document.querySelector('.content11 .value12').innerHTML = '$'.concat(frontyardhighEnd.formatMoney(0));
+    document.querySelector('.content .value1').innerHTML = '$'.concat(frontYardLowTotal.formatMoney(0));
+    document.querySelector('.content .value2').innerHTML = '$'.concat(frontYardHighTotal.formatMoney(0));
 }

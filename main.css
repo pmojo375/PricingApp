@@ -161,13 +161,50 @@ div.priority .black {
     -webkit-appearance:none;
     -moz-appearance:none;
 }
-.small{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
-.medium{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
-.large{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
 
-.small1{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
-.medium1{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
-.large1{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+.small_1{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+.medium_1{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+.large_1{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+
+.small_2{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+.medium_2{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+.large_2{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+
+.small_3{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+.medium_3{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+.large_3{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+
+.small_4{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+.medium_4{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+.large_4{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+
+.small_5{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+.medium_5{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+.large_5{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+
+.small_6{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+.medium_6{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+.large_6{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+
+.small_7{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+.medium_7{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+.large_7{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+
+.small_8{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+.medium_8{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+.large_8{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+
+.small_9{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+.medium_9{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+.large_9{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+
+.small_10{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+.medium_10{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+.large_10{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+
+.small_11{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+.medium_11{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
+.large_11{background-image:url(simple-landscaping-ideas.jpg); vertical-align: text-top; float: left;}
 
 .images input:active +.sizing{opacity: .9;}
 .images input:checked +.sizing{
@@ -200,4 +237,19 @@ div.selectionTitle {
     font-size: 24px;
     margin-top: 0px;
     padding: 0px;
+}
+
+hr.divider {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+}
+
+div.price_indicator {
+    font-size: 12px;
+    font-style: italic;
 }

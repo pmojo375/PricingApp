@@ -13,8 +13,6 @@
 <h1>Creative Landscaping</h1>
 <h2>What’s on your wish list for your new outdoor space?</h2>
 
-<p id="test">test</p>
-
 <p>
     Our project building tool allows you to estimate your investment in the landscape elements you are considering. It’s
     a fun and smart way to start planning your project! We can add or replace items to create the perfect package and
@@ -25,7 +23,7 @@
 
 <h2>Front Yard</h2>
 
-<button class="accordion" onclick="buttonClicked(this)">Entrance - Natural Stone
+<button class="accordion" onclick="buttonClicked(this)">Entry Walk - Pavers, Cultered or Natural Stone
 
     <div id="1" class="priority">
         <label class="red"><input type="radio" name="001" data-name="high" onclick="highPriorityClicked(this)"><span>High</span></label>
@@ -38,7 +36,7 @@
     </div>
 
     <div class="button_content">
-        Create value-enhancing curb appeal with a natural stone walkway to add welcoming character to your home
+        Create value-enhancing curb appeal with a paver, cultered stone or natural stone walkway to add welcoming character to your home. (Ave. 4' wide)
     </div>
 
     <hr>
@@ -53,15 +51,14 @@
     <br>
 
     <div class="images">
-
         <div class="picture">
-            <input type="radio" id="small" name="1" onclick="sizeSelected(this, 1)"
-                   data-high="12000"
-                   data-low="10000"
-                   data-pricestring="Current Budget: $10,000 - $12,000"
+            <input type="radio" id="small_1" name="1" onclick="sizeSelected(this, 1)"
+                   data-high="2800"
+                   data-low="1500"
+                   data-pricestring="Current Budget: $1,500 - $2,800"
                    data-frontyard="true">
-            <label class="sizing small" for="small"></label>
-            <div class="selectionTitle">Small - $10,000 to $12,000</div>
+            <label class="sizing small_1" for="small_1"></label>
+            <div class="selectionTitle">10-30 ft length - $1,500 to $2,800</div>
             This is a long description that will help customers make an informed decision and help me debug the
             alignment issues.
         </div>
@@ -69,13 +66,13 @@
         <br>
 
         <div class="picture">
-            <input type="radio" id="medium" name="1" onchange="sizeSelected(this, 1)"
-                   data-high="18000"
-                   data-low="12000"
-                   data-pricestring="Current Budget: $12,000 - $18,000"
+            <input type="radio" id="medium_1" name="1" onchange="sizeSelected(this, 1)"
+                   data-high="9800"
+                   data-low="2000"
+                   data-pricestring="Current Budget: $2,000 - $9,800"
                    data-frontyard="true">
-            <label class="sizing medium" for="medium"></label>
-            <div class="selectionTitle">Medium - $12,000 to $18,000</div>
+            <label class="sizing medium_1" for="medium_1"></label>
+            <div class="selectionTitle">30-70 ft length - $2,000 to $9,800</div>
             This is a long description that will help customers make an informed decision and help me debug the
             alignment issues.
         </div>
@@ -83,13 +80,13 @@
         <br>
 
         <div class="picture">
-            <input type="radio" id="large" name="1" onchange="sizeSelected(this, 1)"
-                   data-high="28000"
-                   data-low="20000"
-                   data-pricestring="Current Budget: $20,000 - $28,000"
+            <input type="radio" id="large_1" name="1" onchange="sizeSelected(this, 1)"
+                   data-high="14000"
+                   data-low="7000"
+                   data-pricestring="Current Budget: $7,000 - $14,000"
                    data-frontyard="true">
-            <label class="sizing large" for="large"></label>
-            <div class="selectionTitle">Large - $20,000 to $28,000</div>
+            <label class="sizing large_1" for="large_1"></label>
+            <div class="selectionTitle">70-120 ft length - $7,000 to $14,000</div>
             This is a long description that will help customers make an informed decision and help me debug the
             alignment issues.
         </div>
@@ -100,7 +97,9 @@
 
 </div>
 
-<button class="accordion" onclick="buttonClicked(this)">Entrance - Natural Stone
+<hr class="divider">
+
+<button class="accordion" onclick="buttonClicked(this)">Driveway
 
     <div id="2" class="priority">
         <label class="red"><input type="radio" name="002" data-name="high" onclick="highPriorityClicked(this)"><span>High</span></label>
@@ -113,7 +112,7 @@
     </div>
 
     <div class="button_content">
-        Create value-enhancing curb appeal with a natural stone walkway to add welcoming character to your home
+        A brick or stone driveway expresses a subtle elegance and creates unique curb appeal.
     </div>
 
     <hr>
@@ -130,13 +129,13 @@
     <div class="images">
 
         <div class="picture">
-            <input type="radio" id="small1" name="2" onclick="sizeSelected(this, 2)"
-                   data-high="12000"
-                   data-low="10000"
-                   data-pricestring="Current Budget: $10,000 - $12,000"
+            <input type="radio" id="small_2" name="2" onclick="sizeSelected(this, 2)"
+                   data-high="33000"
+                   data-low="15000"
+                   data-pricestring="Current Budget: $15,000 - $33,000"
                    data-frontyard="true">
-            <label class="sizing small1" for="small1"></label>
-            <div class="selectionTitle">Small - $10,000 to $12,000</div>
+            <label class="sizing small_2" for="small_2"></label>
+            <div class="selectionTitle">500-800 sq ft - $15,000 to $33,000</div>
             This is a long description that will help customers make an informed decision and help me debug the
             alignment issues.
         </div>
@@ -144,13 +143,13 @@
         <br>
 
         <div class="picture">
-            <input type="radio" id="medium1" name="2" onchange="sizeSelected(this, 2)"
-                   data-high="18000"
-                   data-low="12000"
-                   data-pricestring="Current Budget: $12,000 - $18,000"
+            <input type="radio" id="medium_2" name="2" onchange="sizeSelected(this, 2)"
+                   data-high="22000"
+                   data-low="49500"
+                   data-pricestring="Current Budget: $22,000 - $49,500"
                    data-frontyard="true">
-            <label class="sizing medium1" for="medium1"></label>
-            <div class="selectionTitle">Medium - $12,000 to $18,000</div>
+            <label class="sizing medium_2" for="medium_2"></label>
+            <div class="selectionTitle">800-1200 sq ft - $22,000 to $49,500</div>
             This is a long description that will help customers make an informed decision and help me debug the
             alignment issues.
         </div>
@@ -158,13 +157,13 @@
         <br>
 
         <div class="picture">
-            <input type="radio" id="large1" name="2" onchange="sizeSelected(this, 2)"
-                   data-high="28000"
-                   data-low="20000"
-                   data-pricestring="Current Budget: $20,000 - $28,000"
+            <input type="radio" id="large_2" name="2" onchange="sizeSelected(this, 2)"
+                   data-high="79000"
+                   data-low="33750"
+                   data-pricestring="Current Budget: $33,750 - $79,000"
                    data-frontyard="true">
-            <label class="sizing large1" for="large1"></label>
-            <div class="selectionTitle">Large - $20,000 to $28,000</div>
+            <label class="sizing large_2" for="large_2"></label>
+            <div class="selectionTitle">1200-2000 sq ft - $33,750 to $79,000</div>
             This is a long description that will help customers make an informed decision and help me debug the
             alignment issues.
         </div>
@@ -175,1250 +174,675 @@
 
 </div>
 
-<button class="accordion" onclick="buttonClicked(this)">Entrance - Pavers & Cultured Stone
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label><label class="black"><input type="radio"
-                                                                                                name="toggle"
-                                                                                                onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-
-    <div class="button_content">
-        Less expensive than natural stone, pavers and cultured stone can provide definition and interest to your
-        entryway.
-    </div>
-
-</button>
-<div class="panel">
-
-    <form>
-        <input type="radio" name="26" value="7,9" onchange="frontYardChange()"> Small ($7k-9k)<br>
-        <input type="radio" name="26" value="10,14" onchange="frontYardChange()"> Medium ($10k-14k)<br>
-        <input type="radio" name="26" value="15,20" onchange="frontYardChange()"> Large ($15k-20k)
-    </form>
-    <br>
-</div>
+<hr class="divider">
 
 <button class="accordion" onclick="buttonClicked(this)">Driveway Accents
 
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
+    <div id="3" class="priority">
+        <label class="red"><input type="radio" name="003" data-name="high" onclick="highPriorityClicked(this)"><span>High</span></label>
+        <label class="yellow"><input type="radio" name="003" data-name="medium"
                                      onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
+        <label class="green"><input type="radio" name="003" data-name="low"
+                                    onclick="lowPriorityClicked(this)"><span>Low</span></label>
+        <label class="black"><input checked="checked" type="radio" name="003" data-name="none"
+                                    onclick="noPriorityClicked(this, 3)"><span>N/A</span></label>
     </div>
 
     <div class="button_content">
-        Brick and stone can enhance the look of your driveway, either patterned in the middle or framing the edges.
+        Brick and stone can enhance the look of your driveway, either patterned in the middle or framing the edges or both.
     </div>
 
-</button>
+    <hr>
 
-<div class="panel">
-
-
-    <form>
-        <input type="radio" name="3" value="7.3,8.5" onchange="frontYardChange()"> Small ($7.2k-8.5k)<br>
-        <input type="radio" name="3" value="14,16.5" onchange="frontYardChange()"> Medium ($14k-16.5k)<br>
-        <input type="radio" name="3" value="18,20" onchange="frontYardChange()"> Large (18k-20k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Driveway - Brick/Stone
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-
-    <div class="button_content">
-        A brick or stone driveway expresses a subtle elegance and creates unique curb appeal.
+    <div class="price_indicator" id="03">
+        Option Not Selected
     </div>
 
 </button>
 <div class="panel">
 
-    <form>
-        <input type="radio" name="4" value="7.3,8.5" onchange="frontYardChange()"> Small ($7.2k-8.5k)<br>
-        <input type="radio" name="4" value="14,16.5" onchange="frontYardChange()"> Medium ($14k-16.5k)<br>
-        <input type="radio" name="4" value="18,20" onchange="frontYardChange()"> Large (18k-20k)
-    </form>
     <br>
+
+    <div class="images">
+
+        <div class="picture">
+            <input type="radio" id="small_3" name="3" onclick="sizeSelected(this, 3)"
+                   data-high="2000"
+                   data-low="500"
+                   data-pricestring="Current Budget: $500 - $2,000"
+                   data-frontyard="true">
+            <label class="sizing small_3" for="small_3"></label>
+            <div class="selectionTitle">Inlay Pattern - $500 to $2,000</div>
+            This is a long description that will help customers make an informed decision and help me debug the
+            alignment issues.
+        </div>
+
+        <br>
+
+        <div class="picture">
+            <input type="radio" id="medium_3" name="3" onchange="sizeSelected(this, 3)"
+                   data-high="3500"
+                   data-low="1500"
+                   data-pricestring="Current Budget: $1,500 - $3,500"
+                   data-frontyard="true">
+            <label class="sizing medium_3" for="medium_3"></label>
+            <div class="selectionTitle">Boarder 100-400' - $1,500 to $3,500</div>
+            This is a long description that will help customers make an informed decision and help me debug the
+            alignment issues.
+        </div>
+
+        <br>
+
+        <div class="picture">
+            <input type="radio" id="large_3" name="3" onchange="sizeSelected(this, 3)"
+                   data-high="6500"
+                   data-low="3500"
+                   data-pricestring="Current Budget: $3,500 - $6,500"
+                   data-frontyard="true">
+            <label class="sizing large_3" for="large_3"></label>
+            <div class="selectionTitle">Intricate Designs - $3,500 to $6,500</div>
+            This is a long description that will help customers make an informed decision and help me debug the
+            alignment issues.
+        </div>
+
+        <br>
+
+    </div>
+
 </div>
 
-<button class="accordion" onclick="buttonClicked(this)">Garden/Knee Walls
+<hr class="divider">
 
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
+<button class="accordion" onclick="buttonClicked(this)">Gardens - Front Yard
+
+    <div id="4" class="priority">
+        <label class="red"><input type="radio" name="004" data-name="high" onclick="highPriorityClicked(this)"><span>High</span></label>
+        <label class="yellow"><input type="radio" name="004" data-name="medium"
                                      onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
+        <label class="green"><input type="radio" name="004" data-name="low"
+                                    onclick="lowPriorityClicked(this)"><span>Low</span></label>
+        <label class="black"><input checked="checked" type="radio" name="004" data-name="none"
+                                    onclick="noPriorityClicked(this, 4)"><span>N/A</span></label>
     </div>
 
     <div class="button_content">
-        Create privacy or a secret garden with a garden/knee wall.
+        Trees, shrubs and plants soften the look of your home, add value and provide important environmental benefits.
+    </div>
+
+    <hr>
+
+    <div class="price_indicator" id="04">
+        Option Not Selected
     </div>
 
 </button>
 <div class="panel">
 
-    <form>
-        <input type="radio" name="5" value="4,6" onchange="frontYardChange()"> Small ($4k-6k)<br>
-        <input type="radio" name="5" value="8,12" onchange="frontYardChange()"> Medium ($8k-12k)<br>
-        <input type="radio" name="5" value="18,24" onchange="frontYardChange()"> Large ($18k-24k)
-    </form>
     <br>
+
+    <div class="images">
+
+        <div class="picture">
+            <input type="radio" id="small_4" name="4" onclick="sizeSelected(this, 4)"
+                   data-high="3000"
+                   data-low="1000"
+                   data-pricestring="Current Budget: $1,000 - $3,000"
+                   data-frontyard="true">
+            <label class="sizing small_4" for="small_4"></label>
+            <div class="selectionTitle">200-600 sq ft - $1,000 to $3,000</div>
+            This is a long description that will help customers make an informed decision and help me debug the
+            alignment issues.
+        </div>
+
+        <br>
+
+        <div class="picture">
+            <input type="radio" id="medium_4" name="4" onchange="sizeSelected(this, 4)"
+                   data-high="7000"
+                   data-low="3000"
+                   data-pricestring="Current Budget: $3,000 - $7,000"
+                   data-frontyard="true">
+            <label class="sizing medium_4" for="medium_4"></label>
+            <div class="selectionTitle">600-1,500 sq ft - $3,000 to $7,000</div>
+            This is a long description that will help customers make an informed decision and help me debug the
+            alignment issues.
+        </div>
+
+        <br>
+
+        <div class="picture">
+            <input type="radio" id="large_4" name="4" onchange="sizeSelected(this, 4)"
+                   data-high="10000"
+                   data-low="7000"
+                   data-pricestring="Current Budget: $7,000 - $10,000"
+                   data-frontyard="true">
+            <label class="sizing large_4" for="large_4"></label>
+            <div class="selectionTitle">1,500+ sq ft - $7,000 to $10,000</div>
+            This is a long description that will help customers make an informed decision and help me debug the
+            alignment issues.
+        </div>
+
+        <br>
+
+    </div>
+
 </div>
 
-<button class="accordion" onclick="buttonClicked(this)">Address Stone/Pillar
+<hr class="divider">
 
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
+<button class="accordion" onclick="buttonClicked(this)">Lawn
+
+    <div id="5" class="priority">
+        <label class="red"><input type="radio" name="005" data-name="high" onclick="highPriorityClicked(this)"><span>High</span></label>
+        <label class="yellow"><input type="radio" name="005" data-name="medium"
                                      onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
+        <label class="green"><input type="radio" name="005" data-name="low"
+                                    onclick="lowPriorityClicked(this)"><span>Low</span></label>
+        <label class="black"><input checked="checked" type="radio" name="005" data-name="none"
+                                    onclick="noPriorityClicked(this, 5)"><span>N/A</span></label>
     </div>
 
     <div class="button_content">
-        This attractive yard accent doubles as a useful guide for visitors or emergency responders to easily find your
-        home.
+        A lush lawn creates space for play and relaxation, or a naturalized look can make for that perfect beachside or prarie look.
+    </div>
+
+    <hr>
+
+    <div class="price_indicator" id="05">
+        Option Not Selected
     </div>
 
 </button>
 <div class="panel">
 
-    <form>
-        <input type="radio" name="6" value="1,1.3" onchange="frontYardChange()"> Small ($1k-1.3k)<br>
-        <input type="radio" name="6" value="3,4" onchange="frontYardChange()"> Medium ($3k-4k)<br>
-        <input type="radio" name="6" value="4,6" onchange="frontYardChange()"> Large ($4k-6k)
-    </form>
     <br>
+
+    <div class="images">
+
+        <div class="picture">
+            <input type="radio" id="small_5" name="5" onclick="sizeSelected(this, 5)"
+                   data-high="750"
+                   data-low="100"
+                   data-pricestring="Current Budget: $100 - $750"
+                   data-frontyard="true">
+            <label class="sizing small_5" for="small_5"></label>
+            <div class="selectionTitle">500-3000 sq ft - $100 to $750</div>
+            This is a long description that will help customers make an informed decision and help me debug the
+            alignment issues.
+        </div>
+
+        <br>
+
+        <div class="picture">
+            <input type="radio" id="medium_5" name="5" onchange="sizeSelected(this, 5)"
+                   data-high="1900"
+                   data-low="750"
+                   data-pricestring="Current Budget: $750 - $1,900"
+                   data-frontyard="true">
+            <label class="sizing medium_5" for="medium_5"></label>
+            <div class="selectionTitle">3,000-9,000 sq ft - $750 to $1,900</div>
+            This is a long description that will help customers make an informed decision and help me debug the
+            alignment issues.
+        </div>
+
+        <br>
+
+        <div class="picture">
+            <input type="radio" id="large_5" name="5" onchange="sizeSelected(this, 5)"
+                   data-high="2800"
+                   data-low="1900"
+                   data-pricestring="Current Budget: $1,900 - $2,800"
+                   data-frontyard="true">
+            <label class="sizing large_5" for="large_5"></label>
+            <div class="selectionTitle">9,000-27,000 sq ft - $1,900 to $2,800</div>
+            This is a long description that will help customers make an informed decision and help me debug the
+            alignment issues.
+        </div>
+
+        <br>
+
+    </div>
+
 </div>
 
-<button class="accordion" onclick="buttonClicked(this)">Mailbox Post/Pillar
+<hr class="divider">
 
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
+<button class="accordion" onclick="buttonClicked(this)">Topsoil & Grade
+
+    <div id="6" class="priority">
+        <label class="red"><input type="radio" name="006" data-name="high" onclick="highPriorityClicked(this)"><span>High</span></label>
+        <label class="yellow"><input type="radio" name="006" data-name="medium"
                                      onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
+        <label class="green"><input type="radio" name="006" data-name="low"
+                                    onclick="lowPriorityClicked(this)"><span>Low</span></label>
+        <label class="black"><input checked="checked" type="radio" name="006" data-name="none"
+                                    onclick="noPriorityClicked(this, 6)"><span>N/A</span></label>
     </div>
 
     <div class="button_content">
-        Everyone needs a mailbox. Make yours one that adds to, rather than detracts from, the overall presentation of
-        your home.
+        Proper yard grading is important for rainwater management around your home.
+    </div>
+
+    <hr>
+
+    <div class="price_indicator" id="06">
+        Option Not Selected
     </div>
 
 </button>
 <div class="panel">
 
-    <form>
-        <input type="radio" name="7" value="1,1.3" onchange="frontYardChange()"> Small ($1k-1.3k)<br>
-        <input type="radio" name="7" value="3,4" onchange="frontYardChange()"> Medium ($3k-4k)<br>
-        <input type="radio" name="7" value="4,6" onchange="frontYardChange()"> Large ($4k-6k)
-    </form>
     <br>
+
+    <div class="images">
+        <div class="picture">
+            <input type="radio" id="small_6" name="6" onclick="sizeSelected(this, 6)"
+                   data-high="1250"
+                   data-low="700"
+                   data-pricestring="Current Budget: $700 - $1,250"
+                   data-frontyard="true">
+            <label class="sizing small_6" for="small_6"></label>
+            <div class="selectionTitle">500-2,500 sq ft - $700 to $1,250</div>
+            This is a long description that will help customers make an informed decision and help me debug the
+            alignment issues.
+        </div>
+
+        <br>
+
+        <div class="picture">
+            <input type="radio" id="medium_6" name="6" onchange="sizeSelected(this, 6)"
+                   data-high="3100"
+                   data-low="1250"
+                   data-pricestring="Current Budget: $1,250 - $3,100"
+                   data-frontyard="true">
+            <label class="sizing medium_6" for="medium_6"></label>
+            <div class="selectionTitle">2,500-7,500 sq ft - $1,250 to $3,100</div>
+            This is a long description that will help customers make an informed decision and help me debug the
+            alignment issues.
+        </div>
+
+        <br>
+
+        <div class="picture">
+            <input type="radio" id="large_6" name="6" onchange="sizeSelected(this, 6)"
+                   data-high="6500"
+                   data-low="3100"
+                   data-pricestring="Current Budget: $3,100 - $6,500"
+                   data-frontyard="true">
+            <label class="sizing large_6" for="large_6"></label>
+            <div class="selectionTitle">7,500-22,000 sq ft - $3,100 to 6,500</div>
+            This is a long description that will help customers make an informed decision and help me debug the
+            alignment issues.
+        </div>
+
+        <br>
+
+    </div>
+
 </div>
 
-<button class="accordion" onclick="buttonClicked(this)">Gardens - Landscape/Flower
+<hr class="divider">
 
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
+<button class="accordion" onclick="buttonClicked(this)">Irrigation
+
+    <div id="7" class="priority">
+        <label class="red"><input type="radio" name="007" data-name="high" onclick="highPriorityClicked(this)"><span>High</span></label>
+        <label class="yellow"><input type="radio" name="007" data-name="medium"
                                      onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
+        <label class="green"><input type="radio" name="007" data-name="low"
+                                    onclick="lowPriorityClicked(this)"><span>Low</span></label>
+        <label class="black"><input checked="checked" type="radio" name="007" data-name="none"
+                                    onclick="noPriorityClicked(this, 7)"><span>N/A</span></label>
     </div>
 
     <div class="button_content">
-        Trees, shrubs, and plants soften the look of your home, add value, and provide important environmental benefits.
+        Stop dragging the sprinkler from place to place across your yard! Keep your plants and grass healthy and strong with an underground irrigation system.
+    </div>
+
+    <hr>
+
+    <div class="price_indicator" id="07">
+        Option Not Selected
     </div>
 
 </button>
 <div class="panel">
-    <form>
-        <input type="radio" name="8" value="8,10" onchange="frontYardChange()"> Small ($8k-10k)<br>
-        <input type="radio" name="8" value="10,15" onchange="frontYardChange()"> Medium ($10k-15k)<br>
-        <input type="radio" name="8" value="15,20" onchange="frontYardChange()"> Large ($15k-20k)
-    </form>
+
     <br>
+
+    <div class="images">
+
+        <div class="picture">
+            <input type="radio" id="small_7" name="7" onclick="sizeSelected(this, 7)"
+                   data-high="0"
+                   data-low="0"
+                   data-pricestring="Current Budget: $0 - $0"
+                   data-frontyard="true">
+            <label class="sizing small_7" for="small_7"></label>
+            <div class="selectionTitle">500-3000 sq ft - $0 to $0</div>
+            This is a long description that will help customers make an informed decision and help me debug the
+            alignment issues.
+        </div>
+
+        <br>
+
+        <div class="picture">
+            <input type="radio" id="medium_7" name="7" onchange="sizeSelected(this, 7)"
+                   data-high="0"
+                   data-low="0"
+                   data-pricestring="Current Budget: $0 - $0"
+                   data-frontyard="true">
+            <label class="sizing medium_7" for="medium_7"></label>
+            <div class="selectionTitle">3000-9000 sq ft - $0 to $0</div>
+            This is a long description that will help customers make an informed decision and help me debug the
+            alignment issues.
+        </div>
+
+        <br>
+
+        <div class="picture">
+            <input type="radio" id="large_7" name="7" onchange="sizeSelected(this, 7)"
+                   data-high="0"
+                   data-low="0"
+                   data-pricestring="Current Budget: $0 - $0"
+                   data-frontyard="true">
+            <label class="sizing large_7" for="large_7"></label>
+            <div class="selectionTitle">9000-2700 sq ft - $0 to $0</div>
+            This is a long description that will help customers make an informed decision and help me debug the
+            alignment issues.
+        </div>
+
+        <br>
+
+    </div>
+
 </div>
 
-<button class="accordion" onclick="buttonClicked(this)">Grading & Sodding/Seeding
+<hr class="divider">
 
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
+<button class="accordion" onclick="buttonClicked(this)">Garden/Knee Wall
+
+    <div id="8" class="priority">
+        <label class="red"><input type="radio" name="008" data-name="high" onclick="highPriorityClicked(this)"><span>High</span></label>
+        <label class="yellow"><input type="radio" name="008" data-name="medium"
                                      onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
+        <label class="green"><input type="radio" name="008" data-name="low"
+                                    onclick="lowPriorityClicked(this)"><span>Low</span></label>
+        <label class="black"><input checked="checked" type="radio" name="008" data-name="none"
+                                    onclick="noPriorityClicked(this, 8)"><span>N/A</span></label>
     </div>
 
     <div class="button_content">
-        Proper yard grading is important for rainwater management around your home, while a lush lawn creates space for
-        play and relaxation.
+        Create privacy or a secret garden with a garden/knee wall. (Under 4', Ave. 2')
+    </div>
+
+    <hr>
+
+    <div class="price_indicator" id="08">
+        Option Not Selected
     </div>
 
 </button>
 <div class="panel">
-    <form>
-        <input type="radio" name="9" value="1,1.5" onchange="frontYardChange()"> Small ($1k-1.5k)<br>
-        <input type="radio" name="9" value="1.5,2.5" onchange="frontYardChange()"> Medium ($1.5k-2.5k)<br>
-        <input type="radio" name="9" value="2.5,4" onchange="frontYardChange()"> Large ($2.5k-4k)
-    </form>
+
     <br>
+
+    <div class="images">
+
+        <div class="picture">
+            <input type="radio" id="small_8" name="8" onclick="sizeSelected(this, 8)"
+                   data-high="2200"
+                   data-low="700"
+                   data-pricestring="Current Budget: $700 - $2,200"
+                   data-frontyard="true">
+            <label class="sizing small_8" for="small_8"></label>
+            <div class="selectionTitle">10-25' - $700 to $2,200</div>
+            This is a long description that will help customers make an informed decision and help me debug the
+            alignment issues.
+        </div>
+
+        <br>
+
+        <div class="picture">
+            <input type="radio" id="medium_8" name="8" onchange="sizeSelected(this, 8)"
+                   data-high="6500"
+                   data-low="2200"
+                   data-pricestring="Current Budget: $2,200 - $6,500"
+                   data-frontyard="true">
+            <label class="sizing medium_8" for="medium_8"></label>
+            <div class="selectionTitle">25-75' - $2,200 to $6,500</div>
+            This is a long description that will help customers make an informed decision and help me debug the
+            alignment issues.
+        </div>
+
+        <br>
+
+        <div class="picture">
+            <input type="radio" id="large_8" name="8" onchange="sizeSelected(this, 8)"
+                   data-high="11000"
+                   data-low="6500"
+                   data-pricestring="Current Budget: $6,500 - $11,000"
+                   data-frontyard="true">
+            <label class="sizing large_8" for="large_8"></label>
+            <div class="selectionTitle">75-125' - $6,500 to $11,000</div>
+            This is a long description that will help customers make an informed decision and help me debug the
+            alignment issues.
+        </div>
+
+        <br>
+
+    </div>
+
 </div>
 
-<button class="accordion" onclick="buttonClicked(this)">LED Landscape Lighting
+<hr class="divider">
 
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
+<button class="accordion" onclick="buttonClicked(this)">Address Pillar
+
+    <div id="9" class="priority">
+        <label class="red"><input type="radio" name="009" data-name="high" onclick="highPriorityClicked(this)"><span>High</span></label>
+        <label class="yellow"><input type="radio" name="009" data-name="medium"
                                      onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
+        <label class="green"><input type="radio" name="009" data-name="low"
+                                    onclick="lowPriorityClicked(this)"><span>Low</span></label>
+        <label class="black"><input checked="checked" type="radio" name="009" data-name="none"
+                                    onclick="noPriorityClicked(this, 9)"><span>N/A</span></label>
     </div>
 
     <div class="button_content">
-        Landscape lighting is the superhero of outdoor spaces: it attractively surrounds your home with safety and
-        security as it brightens those dark spaces where supervillains can lurk.
+        This attractive yard accent doubles as a useful guide for visitors or emergency responders to easily find your home.
+    </div>
+
+    <hr>
+
+    <div class="price_indicator" id="09">
+        Option Not Selected
     </div>
 
 </button>
 <div class="panel">
-    <form>
-        <input type="radio" name="10" value="2.5,3.5" onchange="frontYardChange()"> Small ($2.5k-3.5k)<br>
-        <input type="radio" name="10" value="3,5" onchange="frontYardChange()"> Medium ($3k-5k)<br>
-        <input type="radio" name="10" value="5,7" onchange="frontYardChange()"> Large ($5k-7k)
-    </form>
+
     <br>
+
+    <div class="images">
+
+        <div class="picture">
+            <input type="radio" id="small_9" name="9" onclick="sizeSelected(this, 9)"
+                   data-high="400"
+                   data-low="250"
+                   data-pricestring="Current Budget: $250 - $400"
+                   data-frontyard="true">
+            <label class="sizing small_9" for="small_9"></label>
+            <div class="selectionTitle">Ceder - $250 to $400</div>
+            This is a long description that will help customers make an informed decision and help me debug the
+            alignment issues.
+        </div>
+
+        <br>
+
+        <div class="picture">
+            <input type="radio" id="medium_9" name="9" onchange="sizeSelected(this, 9)"
+                   data-high="650"
+                   data-low="550"
+                   data-pricestring="Current Budget: $550 - $650"
+                   data-frontyard="true">
+            <label class="sizing medium_9" for="medium_9"></label>
+            <div class="selectionTitle">Stone - $550 to $650</div>
+            This is a long description that will help customers make an informed decision and help me debug the
+            alignment issues.
+        </div>
+
+        <br>
+
+    </div>
+
 </div>
 
-<button class="accordion" onclick="buttonClicked(this)">Irrigation Package
+<hr class="divider">
 
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
+<button class="accordion" onclick="buttonClicked(this)">Mailbox Post
+
+    <div id="10" class="priority">
+        <label class="red"><input type="radio" name="0010" data-name="high" onclick="highPriorityClicked(this)"><span>High</span></label>
+        <label class="yellow"><input type="radio" name="0010" data-name="medium"
                                      onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
+        <label class="green"><input type="radio" name="0010" data-name="low"
+                                    onclick="lowPriorityClicked(this)"><span>Low</span></label>
+        <label class="black"><input checked="checked" type="radio" name="0010" data-name="none"
+                                    onclick="noPriorityClicked(this, 10)"><span>N/A</span></label>
     </div>
 
     <div class="button_content">
-        Stop dragging the sprinkler from place to place across your yard! Keep your plants and grass healthy and strong
-        with an underground irrigation system.
+        Everyone needs a mailbox. Make yours one that adds to the overall presentation of your home.
+    </div>
+
+    <hr>
+
+    <div class="price_indicator" id="010">
+        Option Not Selected
     </div>
 
 </button>
 <div class="panel">
-    <form>
-        <input type="radio" name="11" value="1,1.5" onchange="frontYardChange()"> Small ($1k-1.5k)<br>
-        <input type="radio" name="11" value="1.5,2" onchange="frontYardChange()"> Medium ($1.5k-2k)<br>
-        <input type="radio" name="11" value="2,3" onchange="frontYardChange()"> Large ($2k-3k)
-    </form>
+
     <br>
+
+    <div class="images">
+
+        <div class="picture">
+            <input type="radio" id="small_10" name="10" onclick="sizeSelected(this, 10)"
+                   data-high="450"
+                   data-low="300"
+                   data-pricestring="Current Budget: $300 - $450"
+                   data-frontyard="true">
+            <label class="sizing small_10" for="small_10"></label>
+            <div class="selectionTitle">Ceder - $300 to $450</div>
+            This is a long description that will help customers make an informed decision and help me debug the
+            alignment issues.
+        </div>
+
+        <br>
+
+        <div class="picture">
+            <input type="radio" id="medium_10" name="10" onchange="sizeSelected(this, 10)"
+                   data-high="750"
+                   data-low="650"
+                   data-pricestring="Current Budget: $650 - $750"
+                   data-frontyard="true">
+            <label class="sizing medium_10" for="medium_10"></label>
+            <div class="selectionTitle">Stone - $650 to $750</div>
+            This is a long description that will help customers make an informed decision and help me debug the
+            alignment issues.
+        </div>
+
+        <br>
+
+    </div>
+
 </div>
 
-<button class="accordion" onclick="buttonClicked(this)">Demolition & Site Preparation
+<hr class="divider">
 
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
+<button class="accordion" onclick="buttonClicked(this)">Landscape Lighting
+    <div id="11" class="priority">
+        <label class="red"><input type="radio" name="0011" data-name="high" onclick="highPriorityClicked(this)"><span>High</span></label>
+        <label class="yellow"><input type="radio" name="0011" data-name="medium"
                                      onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
+        <label class="green"><input type="radio" name="0011" data-name="low"
+                                    onclick="lowPriorityClicked(this)"><span>Low</span></label>
+        <label class="black"><input checked="checked" type="radio" name="0011" data-name="none"
+                                    onclick="noPriorityClicked(this, 11)"><span>N/A</span></label>
     </div>
 
     <div class="button_content">
-        Getting your project right starts at square one with professional demolition and site preparation. Eliminate
-        surprises by laying the groundwork and staying in the know.
+        Landscape lighting is the superhero of outdoor spaces, highlighting your homes features and making it stand out from others in your neighborhood.
+    </div>
+
+    <hr>
+
+    <div class="price_indicator" id="011">
+        Option Not Selected
     </div>
 
 </button>
 <div class="panel">
-    <form>
-        <input type="radio" name="12" value="1,1.5" onchange="frontYardChange()"> Small ($1k-1.5k)<br>
-        <input type="radio" name="12" value="1.5,2" onchange="frontYardChange()"> Medium ($1.5k-2k)<br>
-        <input type="radio" name="12" value="2,3" onchange="frontYardChange()"> Large ($2k-3k)
-    </form>
+
     <br>
-</div>
 
-<h1>Front Yard Budget:</h1>
+    <div class="images">
 
-<div class="estimation">
-    <div class="content11">Cost: <span class='value11'>$0</span> - <span class='value12'>$0</span></div>
-</div>
+        <div class="picture">
+            <input type="radio" id="small_11" name="11" onclick="sizeSelected(this, 11)"
+                   data-high="1500"
+                   data-low="1000"
+                   data-pricestring="Current Budget: $1,000 - $1,500"
+                   data-frontyard="true">
+            <label class="sizing small_11" for="small_11"></label>
+            <div class="selectionTitle">4-10 lights - $1,000 to $1,500</div>
+            This is a long description that will help customers make an informed decision and help me debug the
+            alignment issues.
+        </div>
 
-<h2>Back Yard</h2>
+        <br>
 
-<button class="accordion" onclick="buttonClicked(this)">Side Walkway
+        <div class="picture">
+            <input type="radio" id="medium_11" name="11" onchange="sizeSelected(this, 11)"
+                   data-high="5000"
+                   data-low="1500"
+                   data-pricestring="Current Budget: $1,500 - $5,000"
+                   data-frontyard="true">
+            <label class="sizing medium_11" for="medium_11"></label>
+            <div class="selectionTitle">10-20 lights - $1,500 to $5,000</div>
+            This is a long description that will help customers make an informed decision and help me debug the
+            alignment issues.
+        </div>
 
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
+        <br>
+
+        <div class="picture">
+            <input type="radio" id="large_11" name="11" onchange="sizeSelected(this, 11)"
+                   data-high="12500"
+                   data-low="5000"
+                   data-pricestring="Current Budget: $5,000 - $12,500"
+                   data-frontyard="true">
+            <label class="sizing large_11" for="large_11"></label>
+            <div class="selectionTitle">20-50 lights - $5,000 to $12,500</div>
+            This is a long description that will help customers make an informed decision and help me debug the
+            alignment issues.
+        </div>
+
+        <br>
+
     </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Make side doors inviting and accessible with a convenient side walkway.
-    </p>
 
-    <form>
-        <input type="radio" name="13" value="2.5,4" onchange="change()"> Small ($2.5k-4k)<br>
-        <input type="radio" name="13" value="4,6" onchange="change()"> Medium ($4k-6k)<br>
-        <input type="radio" name="13" value="12,15" onchange="change()"> Large ($12k-15k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Pathways & Walkways
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Meander to your flower garden or firepit. Pathways and walkways beautifully make the features of your home
-        accessible.
-    </p>
-
-    <form>
-        <input type="radio" name="14" value="5,8" onchange="change()"> Small ($5k-8k)<br>
-        <input type="radio" name="14" value="10,12" onchange="change()"> Medium ($10k-12k)<br>
-        <input type="radio" name="14" value="12,18" onchange="change()"> Large ($12k-18k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Patio - Sitting/Dining Area
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Add another “room” to your home. A patio becomes the focal point of your backyard with more living space for
-        entertaining or relaxing.
-    </p>
-
-    <form>
-        <input type="radio" name="15" value="5,8" onchange="change()"> Small ($5k-8k)<br>
-        <input type="radio" name="15" value="10,12" onchange="change()"> Medium ($10k-12k)<br>
-        <input type="radio" name="15" value="12,18" onchange="change()"> Large ($12k-18k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Patio - Pool Area
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Freshen up the look of your pool deck with natural stone that will add beauty and function for years to come.
-    </p>
-
-    <form>
-        <input type="radio" name="16" value="9,13" onchange="change()"> Small ($9k-13k)<br>
-        <input type="radio" name="16" value="15,18" onchange="change()"> Medium ($15k-18k)<br>
-        <input type="radio" name="16" value="19,23" onchange="change()"> Large ($19k-23k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Steps & Walls
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Do you want a patio but have a sloped yard? No problem. A retaining wall with steps lets you place a patio where
-        you want it.
-    </p>
-
-    <form>
-        <input type="radio" name="17" value="3,5" onchange="change()"> Small ($3k-5k)<br>
-        <input type="radio" name="17" value="6,9" onchange="change()"> Medium ($6k-9k)<br>
-        <input type="radio" name="17" value="15,20" onchange="change()"> Large ($15k-20k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Deck - Wood
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Sip coffee, read the paper or your iPad, and listen to the birds from you wood deck – perfect for relaxing or
-        entertaining.
-    </p>
-
-    <form>
-        <input type="radio" name="18" value="3,5" onchange="change()"> Small ($3k-5k)<br>
-        <input type="radio" name="18" value="7,9" onchange="change()"> Medium ($7k-9k)<br>
-        <input type="radio" name="18" value="12,15" onchange="change()"> Large ($12k-15k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Deck - Premium
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Take your deck to the next level with premium woods or composite materials that make it right place for an
-        outdoor kitchen or hot tub.
-    </p>
-
-    <form>
-        <input type="radio" name="19" value="6,10" onchange="change()"> Small ($6k-10k)<br>
-        <input type="radio" name="19" value="15,18" onchange="change()"> Medium ($15k-18k)<br>
-        <input type="radio" name="19" value="20,25" onchange="change()"> Large ($20k-25k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Built-in BBQ/Kitchen/Bar
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Create a cooking oasis with an outdoor kitchen for entertaining or keeping the family fed while you enjoy the
-        outdoors. Add a pizza oven, cooktop, refrigerator, Kegerator, or brick oven...the list is endless!
-    </p>
-
-    <form>
-        <input type="radio" name="20" value="6,8" onchange="change()"> Small ($6k-8k)<br>
-        <input type="radio" name="20" value="9,12" onchange="change()"> Medium ($9k-12k)<br>
-        <input type="radio" name="20" value="12,16" onchange="change()"> Large ($12k-16k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Fireplace
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        A classic outdoor fireplace can extend the use of your outdoor space from early spring through late autumn.
-        Place it near the house, or tuck it away on a patio in the corner of your property.
-    </p>
-
-    <form>
-        <input type="radio" name="21" value="4,6" onchange="change()"> Small ($4k-6k)<br>
-        <input type="radio" name="21" value="12,15" onchange="change()"> Medium ($12k-15k)<br>
-        <input type="radio" name="21" value="17,22" onchange="change()"> Large ($17k-22k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Firepit
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        From making s’mores with the kids to kicking back with a glass of wine, the crackle of a fire gives everyone the
-        excuse to enjoy time together.
-    </p>
-
-    <form>
-        <input type="radio" name="22" value="4,6" onchange="change()"> Small ($4k-6k)<br>
-        <input type="radio" name="22" value="12,15" onchange="change()"> Medium ($12k-15k)<br>
-        <input type="radio" name="22" value="17,22" onchange="change()"> Large ($17k-22k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Pavilion, Covered Porch, Pergola, Cabana
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Need some shade or a welcoming, defined space within your landscape? A covered porch, pergola, or pavilion can
-        add another dimension of style and function.
-    </p>
-
-    <form>
-        <input type="radio" name="23" value="10,13" onchange="change()"> Small ($10k-13k)<br>
-        <input type="radio" name="23" value="14,17" onchange="change()"> Medium ($14k-17k)<br>
-        <input type="radio" name="23" value="18,24" onchange="change()"> Large ($18k-24k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Shed
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Make more storage space a complimentary addition to your property with a storage shed -- because who can’t use
-        more storage space!
-    </p>
-
-    <form>
-        <input type="radio" name="24" value="8,11" onchange="change()"> Small ($8k-11k)<br>
-        <input type="radio" name="24" value="12,20" onchange="change()"> Medium ($12k-20k)<br>
-        <input type="radio" name="24" value="25,50" onchange="change()"> Large ($25k-50k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Swimming Pool
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Soak up the warmth of summer in your own pool. It can be a watery playground for the kids, your own private
-        workout club, or a spa retreat just steps away.
-    </p>
-
-    <form>
-        <input type="radio" name="25" value="35,40" onchange="change()"> Small ($35k-40k)<br>
-        <input type="radio" name="25" value="40,55" onchange="change()"> Medium ($40k-55k)<br>
-        <input type="radio" name="25" value="55,75" onchange="change()"> Large ($55k-75k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Pool Coping
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Put the finishing touches on the edge of your in-ground pool with decorative pool coping.
-    </p>
-
-    <form>
-        <input type="radio" name="26" value="4,5" onchange="change()"> Small ($4k-5k)<br>
-        <input type="radio" name="26" value="5,6.5" onchange="change()"> Medium ($5k-6.5k)<br>
-        <input type="radio" name="26" value="7,9" onchange="change()"> Large ($7k-9k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Pool Waterfall - Contemporary
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Give your backyard pool that resort-feel by adding a contemporary-styled waterfall.
-    </p>
-
-    <form>
-        <input type="radio" name="27" value="4,5" onchange="change()"> Small ($4k-5k)<br>
-        <input type="radio" name="27" value="5,7" onchange="change()"> Medium ($5k-7k)<br>
-        <input type="radio" name="27" value="7,10" onchange="change()"> Large ($7k-10k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Pool Waterfall - Natural
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Take a natural approach to your pool waterfall with plantings and stone outcroppings to build your unique
-        getaway.
-    </p>
-
-    <form>
-        <input type="radio" name="28" value="7,9" onchange="change()"> Small ($7k-9k)<br>
-        <input type="radio" name="28" value="10,12" onchange="change()"> Medium ($10k-12k)<br>
-        <input type="radio" name="28" value="14,18" onchange="change()"> Large ($14k-18k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Hot Tub/Spa
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Leave the daily stresses behind when you settle into your private hot tub or spa.
-    </p>
-
-    <form>
-        <input type="radio" name="29" value="7,9" onchange="change()"> Small ($7k-9k)<br>
-        <input type="radio" name="29" value="10,12" onchange="change()"> Medium ($10k-12k)<br>
-        <input type="radio" name="29" value="14,18" onchange="change()"> Large ($14k-18k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Privacy Screen
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Create a barrier from prying eyes with plants to naturally provide a privacy screen between you and the rest of
-        the world.
-    </p>
-
-    <form>
-        <input type="radio" name="30" value="1.2,1.5" onchange="change()"> Small ($1.2k-1.5k)<br>
-        <input type="radio" name="30" value="2,3" onchange="change()"> Medium ($2k-3k)<br>
-        <input type="radio" name="30" value="5,8" onchange="change()"> Large ($5k-8k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Fencing - Wood
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Establish privacy around your yard, patio, or hot tub with a decorative wood fence.
-    </p>
-
-    <form>
-        <input type="radio" name="31" value="4,5" onchange="change()"> Small ($4k-5k)<br>
-        <input type="radio" name="31" value="13,17" onchange="change()"> Medium ($13k-17k)<br>
-        <input type="radio" name="31" value="18,23" onchange="change()"> Large ($18k-23k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Fencing - Modular Iron
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Keep what's in in, and what's out out. A modular iron fence is where form meets function when it is integrated
-        it into your landscape design.
-    </p>
-
-    <form>
-        <input type="radio" name="32" value="5,8" onchange="change()"> Small ($5k-8k)<br>
-        <input type="radio" name="32" value="10,15" onchange="change()"> Medium ($10k-15k)<br>
-        <input type="radio" name="32" value="15,20" onchange="change()"> Large ($15k-20k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Gardens - Landscaping and Flower
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label><label class="black"><input type="radio"
-                                                                                                name="toggle"
-                                                                                                onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Trees, shrubs, and plants soften the look of your home, add value, and provide important environmental benefits.
-    </p>
-
-    <form>
-        <input type="radio" name="33" value="8,12" onchange="change()"> Small ($8k-12k)<br>
-        <input type="radio" name="33" value="12,18" onchange="change()"> Medium ($12k-18k)<br>
-        <input type="radio" name="33" value="18,25" onchange="change()"> Large ($18k-25k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Gardens - Vegetable and Herbs
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Bring the farm-to-table movement into your own yard. By adding raised vegetable beds or a small garden plot
-        (with fence to keep the critters out), you’ll have the freshest vegetables and herbs for your next culinary
-        creation.
-    </p>
-
-    <form>
-        <input type="radio" name="34" value="8,12" onchange="change()"> Small ($8k-12k)<br>
-        <input type="radio" name="34" value="12,18" onchange="change()"> Medium ($12k-18k)<br>
-        <input type="radio" name="34" value="18,25" onchange="change()"> Large ($18k-25k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Gardens - Sodding/Seeding
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Proper yard grading is important for rainwater management around your home, while a lush lawn creates space for
-        play and relaxation.
-    </p>
-
-    <form>
-        <input type="radio" name="35" value="8,12" onchange="change()"> Small ($8k-12k)<br>
-        <input type="radio" name="35" value="12,18" onchange="change()"> Medium ($12k-18k)<br>
-        <input type="radio" name="35" value="18,25" onchange="change()"> Large ($18k-25k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">LED Landscape Lighting
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Landscape lighting is the superhero of outdoor spaces: it attractively surrounds your home with safety and
-        security as it brightens those dark spaces where supervillains can lurk.
-    </p>
-
-    <form>
-        <input type="radio" name="36" value="2.5,3" onchange="change()"> Small ($2.5k-3k)<br>
-        <input type="radio" name="36" value="4.5,6" onchange="change()"> Medium ($4.5k-6k)<br>
-        <input type="radio" name="36" value="7,9" onchange="change()"> Large ($7k-9k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Irrigation Package
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Stop dragging the sprinkler from place to place across your yard! Keep your plants and grass healthy and strong
-        with an underground irrigation system.
-    </p>
-
-    <form>
-        <input type="radio" name="37" value="1.5,2" onchange="change()"> Small ($1.5k-2k)<br>
-        <input type="radio" name="37" value="2,3" onchange="change()"> Medium ($2k-3k)<br>
-        <input type="radio" name="37" value="3,5" onchange="change()"> Large ($3k-5k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Waterfall - Pond or Pondless
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Create endlessmoments of zen with the sound of water cascading over a waterfall. It can be part of a pond or
-        enjoyed as part of a pondless design.
-    </p>
-
-    <form>
-        <input type="radio" name="38" value="1.5,2" onchange="change()"> Small ($1.5k-2k)<br>
-        <input type="radio" name="38" value="2,3" onchange="change()"> Medium ($2k-3k)<br>
-        <input type="radio" name="38" value="3,5" onchange="change()"> Large ($3k-5k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Decorative Waterfeature
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        A waterwall spillway, decorative spillway bowl, natural stone fountain, or artistic vase fountain can fit into
-        almost any landscape.
-    </p>
-
-    <form>
-        <input type="radio" name="39" value="1.5,2" onchange="change()"> Small ($1.5k-2k)<br>
-        <input type="radio" name="39" value="2,3" onchange="change()"> Medium ($2k-3k)<br>
-        <input type="radio" name="39" value="3,5" onchange="change()"> Large ($3k-5k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Reflecting Pond
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Create your own mini ecosystem that will be a home for frogs and fish, accented with attractive, pond-perfect
-        plants.
-    </p>
-
-    <form>
-        <input type="radio" name="40" value="1.5,2" onchange="change()"> Small ($1.5k-2k)<br>
-        <input type="radio" name="40" value="2,3" onchange="change()"> Medium ($2k-3k)<br>
-        <input type="radio" name="40" value="3,5" onchange="change()"> Large ($3k-5k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Walls
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Adding a wall in your landscaping can be a point of focus and another feature to separate your "landscape
-        rooms."
-    </p>
-
-    <form>
-        <input type="radio" name="41" value="1.5,2" onchange="change()"> Small ($1.5k-2k)<br>
-        <input type="radio" name="41" value="2,3" onchange="change()"> Medium ($2k-3k)<br>
-        <input type="radio" name="41" value="3,5" onchange="change()"> Large ($3k-5k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Retaining Walls (Boulder, Outcropping, Stack)
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Stop that slope from encroaching or add livable outdoor space with a functional and aesthetically pleasing
-        retaining wall.
-    </p>
-
-    <form>
-        <input type="radio" name="42" value="1.5,2" onchange="change()"> Small ($1.5k-2k)<br>
-        <input type="radio" name="42" value="2,3" onchange="change()"> Medium ($2k-3k)<br>
-        <input type="radio" name="42" value="3,5" onchange="change()"> Large ($3k-5k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Seawalls
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Is your waterfront home under attack by the waves? We can engineer and permit your seawall project and increase
-        your home’s value by protecting it from the elements.
-    </p>
-
-    <form>
-        <input type="radio" name="43" value="1.5,2" onchange="change()"> Small ($1.5k-2k)<br>
-        <input type="radio" name="43" value="2,3" onchange="change()"> Medium ($2k-3k)<br>
-        <input type="radio" name="43" value="3,5" onchange="change()"> Large ($3k-5k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Drainage & Downspouts
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Proper drainage is often overlooked when planning a landscape, but its importance can't be overstated. Protect
-        your investment by moving water away from your home.
-    </p>
-
-    <form>
-        <input type="radio" name="44" value="1.5,2" onchange="change()"> Small ($1.5k-2k)<br>
-        <input type="radio" name="44" value="2,3" onchange="change()"> Medium ($2k-3k)<br>
-        <input type="radio" name="44" value="3,5" onchange="change()"> Large ($3k-5k)
-    </form>
-    <br>
-</div>
-
-<button class="accordion" onclick="buttonClicked(this)">Demolition, Site Preparation and Site Logistics
-
-    <div class="priority">
-        <label class="red"><input type="radio" name="toggle"
-                                  onclick="highPriorityClicked(this)"><span>High</span></label>
-        <label class="yellow"><input type="radio" name="toggle"
-                                     onclick="mediumPriorityClicked(this)"><span>Med</span></label>
-        <label class="green"><input type="radio" name="toggle" onclick="lowPriorityClicked(this)"
-                                    checked><span>Low</span></label>
-        <label class="black"><input type="radio" name="toggle"
-                                    onclick="noPriorityClicked(this)"><span>N/A</span></label>
-    </div>
-    <div class="button_content">
-</button>
-<div class="panel">
-    <p>
-        Getting your project right starts at square one with professional demolition and site preparation. Eliminate
-        surprises by laying the groundwork and staying in the know.
-    </p>
-
-    <form>
-        <input type="radio" name="45" value="1.5,2" onchange="change()"> Small ($1.5k-2k)<br>
-        <input type="radio" name="45" value="2,3" onchange="change()"> Medium ($2k-3k)<br>
-        <input type="radio" name="45" value="3,5" onchange="change()"> Large ($3k-5k)
-    </form>
-    <br>
 </div>
 
 <script type="text/javascript" src="javascript.js"></script>
 
-<h1>Your Budget:</h1>
+<h1>Front Yard Budget:</h1>
 
 <div class="estimation">
-    <div class="content1">Cost: <span class='value1'>$0</span> - <span class='value2'>$0</span></div>
+    <div class="content">Cost: <span class='value1'>$0</span> - <span class='value2'>$0</span></div>
 </div>
 
 <p>*This tool provides a rough estimate only and is not meant to give exact costs.</p>
